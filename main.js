@@ -1,6 +1,30 @@
-// Your code here.
+// Your code here
+function getFirstName(person){
+return person.firstName;
+}
+function getLastName(person){
+  return person.lastName;
+}
+function setFirstName(person, newFirstName){
+person.firstName = newFirstName;
+}
+function setAge(person, newAge){
+  person.age = newAge;
+}
+function giveBirthday(){
+if(person.age !== undefined){
+  person.age++;
+}else{
+  person.age = 1;
+}
+function marry(){
+  person1.married = true;
+  person2.married = true;
+  person1.spouseName = getFullName(person2);
+  person2.spouseName = getFullName(person1);
+}
+}
 
-//hello
 
 
 
